@@ -1,0 +1,32 @@
+{
+  "name": "envif",
+  "version": "1.0.0",
+  "description": "Commandline utility, outputs process argument 2 if a variable is true else outputs process argument 3 (or not if not given)",
+  "main": "envif.js",
+  "scripts": {
+    "test": "lab"
+  },
+  "bin": {
+    "envif": "bin/envif"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinheidegger/envif.git"
+  },
+  "keywords": [
+    "cli",
+    "simple",
+    "environment",
+    "variable"
+  ],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinheidegger/envif/issues"
+  },
+  "homepage": "https://github.com/martinheidegger/envif",
+  "devDependencies": {
+    "code": "^1.2.1",
+    "lab": "^5.1.1"
+  }
+}
